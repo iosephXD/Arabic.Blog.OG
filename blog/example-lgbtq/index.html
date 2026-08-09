@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- سكريبت صغير بيحدد الثيم قبل ما الصفحة تتعرض، عشان منمنعش "فلاش" لون غلط -->
+<script>
+  (function(){
+    try{
+      var t = localStorage.getItem('theme') || 'auto';
+      if(t !== 'auto'){ document.documentElement.setAttribute('data-theme', t); }
+    }catch(e){}
+  })();
+</script>
+<title>ioseph — Post</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- الصفحة دي عامة، بتعرض أي بوست حسب اسم المجلد بتاعها في الرابط
+     (السلاج بييجي من location.pathname تلقائي). مش محتاج تعدل فيها
+     حاجة أبدًا — هي نسخة بتتكرر لكل بوست، مش فيها أي محتوى مكتوب. -->
+
+<!-- ======================= الهيدر / القائمة العلوية =======================
+     نفس القائمة دي موجودة في كل صفحة. غيّرها هنا وكمان في باقي الصفحات
+     (index.html, blog/index.html, projects/index.html, mods/index.html, cv/index.html)
+======================================================================= -->
+<header class="site-header">
+  <nav class="site-nav">
+    <!-- زرار تبديل الثيم: تلقائي (زي إعدادات الجهاز) ← أبيض ← أسود ← تلقائي ... -->
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+      <svg class="icon icon-auto" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3.6a8.4 8.4 0 0 1 0 16.8z" fill="currentColor"/></svg>
+      <svg class="icon icon-light" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="4.3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="4.4"/><line x1="12" y1="19.6" x2="12" y2="22"/><line x1="2" y1="12" x2="4.4" y2="12"/><line x1="19.6" y1="12" x2="22" y2="12"/><line x1="4.6" y1="4.6" x2="6.3" y2="6.3"/><line x1="17.7" y1="17.7" x2="19.4" y2="19.4"/><line x1="4.6" y1="19.4" x2="6.3" y2="17.7"/><line x1="17.7" y1="6.3" x2="19.4" y2="4.6"/></g></svg>
+      <svg class="icon icon-dark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M19.8 14.5A8.4 8.4 0 1 1 9.6 4.3a6.9 6.9 0 0 0 10.2 10.2z" fill="currentColor"/></svg>
+    </button>
+    <a href="/" class="brand">ioseph</a>
+    <a href="/blog/" class="active">Blog</a>
+    <a href="/projects/">Projects</a>
+    <a href="/mods/">My Mods</a>
+    <a href="/cv/">CV</a>
+    <div class="nav-search" id="nav-search">
+      <button type="button" class="nav-search-btn" id="nav-search-btn" aria-label="Search" title="Search">
+        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16.2" y1="16.2" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <input type="text" id="nav-search-input" class="nav-search-input" placeholder="Search blog…" aria-label="Search blog">
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <a href="/blog/" class="back-link" style="color:var(--accent);">← Back to blog</a>
+
+    <h1 class="post-title" id="post-title" style="margin-top:20px;">Loading…</h1>
+    <div class="post-meta" id="post-meta"></div>
+    <div class="tags" id="post-tags" style="margin-bottom:20px;"></div>
+
+    <div class="post-body" id="post-body"></div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    © <span id="year"></span> ioseph. Built with plain HTML.
+  </div>
+</footer>
+
+<script src="/bidi.js"></script>
+<script src="/nav-search.js"></script>
+<script src="/theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/posts/manifest.js"></script>
+<script src="/blog.js"></script>
+<script>
+  renderSinglePost();
+</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

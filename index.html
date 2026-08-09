@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- سكريبت صغير بيحدد الثيم قبل ما الصفحة تتعرض، عشان منمنعش "فلاش" لون غلط -->
+<script>
+  (function(){
+    try{
+      var t = localStorage.getItem('theme') || 'auto';
+      if(t !== 'auto'){ document.documentElement.setAttribute('data-theme', t); }
+    }catch(e){}
+  })();
+</script>
+<title>ioseph — About</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- ======================= الهيدر / القائمة العلوية =======================
+     نفس القائمة دي موجودة في كل صفحة. غيّرها هنا وكمان في باقي الصفحات
+     (index.html, blog/index.html, projects/index.html, mods/index.html, cv/index.html)
+======================================================================= -->
+<header class="site-header">
+  <nav class="site-nav">
+    <!-- زرار تبديل الثيم: تلقائي (زي إعدادات الجهاز) ← أبيض ← أسود ← تلقائي ... -->
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+      <svg class="icon icon-auto" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3.6a8.4 8.4 0 0 1 0 16.8z" fill="currentColor"/></svg>
+      <svg class="icon icon-light" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="4.3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="4.4"/><line x1="12" y1="19.6" x2="12" y2="22"/><line x1="2" y1="12" x2="4.4" y2="12"/><line x1="19.6" y1="12" x2="22" y2="12"/><line x1="4.6" y1="4.6" x2="6.3" y2="6.3"/><line x1="17.7" y1="17.7" x2="19.4" y2="19.4"/><line x1="4.6" y1="19.4" x2="6.3" y2="17.7"/><line x1="17.7" y1="6.3" x2="19.4" y2="4.6"/></g></svg>
+      <svg class="icon icon-dark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M19.8 14.5A8.4 8.4 0 1 1 9.6 4.3a6.9 6.9 0 0 0 10.2 10.2z" fill="currentColor"/></svg>
+    </button>
+    <a href="/" class="brand active">ioseph</a>
+    <a href="/blog/">Blog</a>
+    <a href="/projects/">Projects</a>
+    <a href="/mods/">My Mods</a>
+    <a href="/cv/">CV</a>
+    <div class="nav-search" id="nav-search">
+      <button type="button" class="nav-search-btn" id="nav-search-btn" aria-label="Search" title="Search">
+        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16.2" y1="16.2" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <input type="text" id="nav-search-input" class="nav-search-input" placeholder="Search blog…" aria-label="Search blog">
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <!-- ====================== قسم About: نص + صورة ======================
+         عشان تحط صورتك الحقيقية: سمّي الصورة "prof_pic.jpg" وحطها جوا
+         مجلد "img" (نفس مكان placeholder.svg). الكود مش هيحتاج أي تعديل،
+         الصورة هتظهر تلقائي بدل الصورة الرمادية الافتراضية.
+    ======================================================================= -->
+    <div class="profile-grid">
+
+      <div class="profile-text">
+        <span class="eyebrow">About</span>
+        <h1>ioseph</h1>
+
+        <!-- ====================== نص التعريف — عدّل هنا ====================== -->
+        <p class="lead">
+          Hey, I'm ioseph. I build small things, break bigger things, and
+          write about whatever I'm learning along the way.
+        </p>
+
+        <p>
+          This is my little corner of the internet — a mix of a blog, the
+          projects I've been tinkering with, some game/software mods I've
+          made, and my CV for anyone curious about the boring official
+          version of me.
+        </p>
+
+        <p>
+          I'm interested in software, games, and building things from
+          scratch just to understand how they work. Feel free to look
+          around, and check the <a href="/blog/" style="color:var(--accent); text-decoration:underline;">blog</a>
+          for the latest updates.
+        </p>
+        <!-- ==================================================================== -->
+      </div>
+
+      <div class="profile-photo">
+        <img
+          src="/img/prof_pic.jpg"
+          alt="ioseph"
+          onerror="this.onerror=null; this.src='/img/placeholder.svg';">
+      </div>
+
+    </div>
+
+    <hr class="rule">
+
+    <!-- روابط التواصل — عدّل الايميل والروابط دي بمعلوماتك -->
+    <p class="eyebrow">Find me</p>
+    <p>
+      <a href="mailto:ioseph@example.com" style="color:var(--accent);">Email</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/ioseph" style="color:var(--accent);">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="/cv/" style="color:var(--accent);">CV</a>
+    </p>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    © <span id="year"></span> ioseph. Discord : ioseph.exe . Last updated: August 8, 2026.
+
+  </div>
+</footer>
+
+<script src="/bidi.js"></script>
+<script src="/nav-search.js"></script>
+<script src="/theme.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
