@@ -8,7 +8,7 @@ Built with love by ioseph
 
 <br>
 
-<a href="https://ioseph.site.je/">
+<a href="https://my-blog.site.je/">
   <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-2ea44f?style=for-the-badge">
 </a>
 
