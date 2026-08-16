@@ -157,7 +157,7 @@ Built with love by ioseph
 ---
 
 
-## 📸 Preview
+## English Version (النسخه الأنجليزيه)
 
 <div align="center">
 
