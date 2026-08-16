@@ -39,8 +39,6 @@ Built with love by ioseph
 مدونه + موقع شخصي بسيط جدا وغير معقد وسهل الأستخدام (ل واتبعت التعليمات) يمكنك وضع طبعا معلوماتك ومشاريعك + برضو في نظام blog او بوستات تقدر تنشر بوستات عن الي تحبه وايضا في نظام flairs شبه بتاع موقع Reddit وفيه ايضا خاصية انك تضيف فليرز بصور زي الي ظاهر في صور الموقع تحت 
 والبوستات سهل تكتبها بتعتمد علي ملفات ال md ... ومش عارف شوف الصور مكسل اكتب وصف
 
-Built completely with **HTML**, with a focus on simplicity, responsiveness, and clean design.
-
 ---
 
 ## 📸 Preview
@@ -50,19 +48,19 @@ Built completely with **HTML**, with a focus on simplicity, responsiveness, and 
 <table>
 <tr>
 <td>
-<img src="https://github.com/user-attachments/assets/a5ea8916-c702-4499-b89c-3f8094336c7d" width="450">
+<img width="1854" height="782" alt="Screenshot 2026-08-16 103110" src="https://github.com/user-attachments/assets/c9bed876-fedb-4925-a63c-11fed7b56673" />
 </td>
 <td>
-<img src="https://github.com/user-attachments/assets/393d81fd-8e73-4db2-8c02-92206c1cb411" width="450">
+<img width="1919" height="862" alt="Screenshot 2026-08-16 103141" src="https://github.com/user-attachments/assets/c42a9ee1-9ee4-474d-ba0d-d0c22c2f815d" />
 </td>
 </tr>
 
 <tr>
 <td>
-<img src="https://github.com/user-attachments/assets/332ac540-6581-475f-a007-58324fa30fb5" width="450">
+<img width="1886" height="808" alt="Screenshot 2026-08-16 103058" src="https://github.com/user-attachments/assets/b425b94c-9a20-41b6-841e-57f41ecf7535" />
 </td>
 <td>
-<img src="https://github.com/user-attachments/assets/946c8a28-283a-4802-9d7d-ea9314e8ba5d" width="450">
+<img width="1881" height="854" alt="Screenshot 2026-08-16 103155" src="https://github.com/user-attachments/assets/a8d53ca7-2d49-4e78-b6eb-2a95538d0c97" />
 </td>
 </tr>
 </table>
