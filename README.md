@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🖥️ Ioseph Portfolio
+# 🖥️ Ioseph Portfolio | Blog (Arabic)
 
-### Simple & Modern Portfolio Website
+### Simple Portfolio + Blog Website
 
-A clean and responsive personal portfolio website built with pure HTML.
+Built with love by ioseph 
 
 <br>
 
