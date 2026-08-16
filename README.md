@@ -69,11 +69,92 @@ Built with love by ioseph
 </div>
 
 ---
+## Version 0.3 (أحدث أصدار)
 
+<div align="center">
 
+<table>
+<tr>
+<td>
+<img width="1886" height="808" alt="Screenshot 2026-08-16 103058" src="https://github.com/user-attachments/assets/b425b94c-9a20-41b6-841e-57f41ecf7535" />
+</td>
+<td>
+<img width="1881" height="854" alt="Screenshot 2026-08-16 103155" src="https://github.com/user-attachments/assets/a8d53ca7-2d49-4e78-b6eb-2a95538d0c97" />
+</td>
+</tr>
+  
+<tr>
+<td>
+<img width="1854" height="782" alt="Screenshot 2026-08-16 103110" src="https://github.com/user-attachments/assets/c9bed876-fedb-4925-a63c-11fed7b56673" />
+</td>
+<td>
+<img width="1919" height="862" alt="Screenshot 2026-08-16 103141" src="https://github.com/user-attachments/assets/c42a9ee1-9ee4-474d-ba0d-d0c22c2f815d" />
+</td>
+</tr>
 
+</table>
 
+</div>
 
+---
+
+## Version 0.2 (أحدث أصدار)
+
+<div align="center">
+
+<table>
+<tr>
+<td>
+<img width="1886" height="808" alt="Screenshot 2026-08-16 103058" src="https://github.com/user-attachments/assets/b425b94c-9a20-41b6-841e-57f41ecf7535" />
+</td>
+<td>
+<img width="1881" height="854" alt="Screenshot 2026-08-16 103155" src="https://github.com/user-attachments/assets/a8d53ca7-2d49-4e78-b6eb-2a95538d0c97" />
+</td>
+</tr>
+  
+<tr>
+<td>
+<img width="1854" height="782" alt="Screenshot 2026-08-16 103110" src="https://github.com/user-attachments/assets/c9bed876-fedb-4925-a63c-11fed7b56673" />
+</td>
+<td>
+<img width="1919" height="862" alt="Screenshot 2026-08-16 103141" src="https://github.com/user-attachments/assets/c42a9ee1-9ee4-474d-ba0d-d0c22c2f815d" />
+</td>
+</tr>
+
+</table>
+
+</div>
+
+---
+
+## Version 0.1 (أحدث أصدار)
+
+<div align="center">
+
+<table>
+<tr>
+<td>
+<img width="1886" height="808" alt="Screenshot 2026-08-16 103058" src="https://github.com/user-attachments/assets/b425b94c-9a20-41b6-841e-57f41ecf7535" />
+</td>
+<td>
+<img width="1881" height="854" alt="Screenshot 2026-08-16 103155" src="https://github.com/user-attachments/assets/a8d53ca7-2d49-4e78-b6eb-2a95538d0c97" />
+</td>
+</tr>
+  
+<tr>
+<td>
+<img width="1854" height="782" alt="Screenshot 2026-08-16 103110" src="https://github.com/user-attachments/assets/c9bed876-fedb-4925-a63c-11fed7b56673" />
+</td>
+<td>
+<img width="1919" height="862" alt="Screenshot 2026-08-16 103141" src="https://github.com/user-attachments/assets/c42a9ee1-9ee4-474d-ba0d-d0c22c2f815d" />
+</td>
+</tr>
+
+</table>
+
+</div>
+
+---
 
 
 ## 📸 Preview
