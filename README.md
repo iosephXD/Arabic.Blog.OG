@@ -36,12 +36,46 @@ Built with love by ioseph
 
 ## ✨ About
 
-**Ioseph Portfolio** is a simple personal portfolio website designed to showcase
-projects, skills, and personal information in a clean and modern interface.
+مدونه + موقع شخصي بسيط جدا وغير معقد وسهل الأستخدام (ل واتبعت التعليمات) يمكنك وضع طبعا معلوماتك ومشاريعك + برضو في نظام blog او بوستات تقدر تنشر بوستات عن الي تحبه وايضا في نظام flairs شبه بتاع موقع Reddit وفيه ايضا خاصية انك تضيف فليرز بصور زي الي ظاهر في صور الموقع تحت 
+والبوستات سهل تكتبها بتعتمد علي ملفات ال md ... ومش عارف شوف الصور مكسل اكتب وصف
 
 Built completely with **HTML**, with a focus on simplicity, responsiveness, and clean design.
 
 ---
+
+## 📸 Preview
+
+<div align="center">
+
+<table>
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/a5ea8916-c702-4499-b89c-3f8094336c7d" width="450">
+</td>
+<td>
+<img src="https://github.com/user-attachments/assets/393d81fd-8e73-4db2-8c02-92206c1cb411" width="450">
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/332ac540-6581-475f-a007-58324fa30fb5" width="450">
+</td>
+<td>
+<img src="https://github.com/user-attachments/assets/946c8a28-283a-4802-9d7d-ea9314e8ba5d" width="450">
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+
+
+
+
+
 
 ## 📸 Preview
 
