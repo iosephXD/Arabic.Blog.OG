@@ -69,7 +69,7 @@ Built with love by ioseph
 </div>
 
 ---
-## Version 0.3 (أحدث أصدار)
+## Version 0.3
 
 <div align="center">
 
@@ -98,7 +98,7 @@ Built with love by ioseph
 
 ---
 
-## Version 0.2 (أحدث أصدار)
+## Version 0.2 
 
 <div align="center">
 
@@ -127,7 +127,7 @@ Built with love by ioseph
 
 ---
 
-## Version 0.1 (أحدث أصدار)
+## Version 0.1 
 
 <div align="center">
 
