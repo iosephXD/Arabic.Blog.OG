@@ -160,10 +160,13 @@ Built with love by ioseph
 ## English Version (النسخه الأنجليزيه)
 
 <div align="center">
-<div align="center">
 
 <a href="https://ioseph.site.je/">
   <img src="https://img.shields.io/badge/Visit-iOseph_Portfolio-24292f?style=for-the-badge">
+</a>
+
+<a href="https://example.com/download">
+  <img src="https://img.shields.io/badge/⬇_Download-Latest_Version-2ea44f?style=for-the-badge">
 </a>
 
 </div>
