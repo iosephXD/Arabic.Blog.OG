@@ -16,6 +16,24 @@ A clean and responsive personal portfolio website built with pure HTML.
 
 ---
 
+## 🛠️ Built With
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+<img src="https://img.shields.io/badge/PFP-6C5CE7?style=for-the-badge&logoColor=white">
+
+<img src="https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white">
+
+</div>
+
+---
+
 ## ✨ About
 
 **Ioseph Portfolio** is a simple personal portfolio website designed to showcase
@@ -53,23 +71,6 @@ Built completely with **HTML**, with a focus on simplicity, responsiveness, and 
 
 ---
 
-## 🛠️ Built With
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-
-<img src="https://img.shields.io/badge/PFP-6C5CE7?style=for-the-badge&logoColor=white">
-
-<img src="https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white">
-
-</div>
-
----
 
 ## 🚀 Features
 
