@@ -41,7 +41,7 @@ Built with love by ioseph
 
 ---
 
-## 📸 Preview
+## Version 0.4 (أحدث أصدار)
 
 <div align="center">
 
