@@ -188,12 +188,7 @@ Built with love by ioseph
 
 ## 🚀 Features
 
-- 📱 Responsive design
-- 🎨 Clean and modern interface
-- ⚡ Lightweight and fast
-- 🧩 Simple HTML structure
-- 🌐 Easy to customize
-- 💻 No frameworks required
+## سيبها علي الله
 
 ---
 
